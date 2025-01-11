@@ -9,4 +9,9 @@ title_1 = [input("Введите заголовок 1: ")]
 title_2 = [input("Введите заголовок 2: ")]
 title = [title_1 + title_2]
 note = username + content + status + temp_created_data + temp_issue_data + title
-print(note)
+print("Имя пользователя:", (note[0]))
+print("Содержание заметки:", (note[1]))
+print("Статус:", (note[2]))
+print("Дата создания:", (note[3]))
+print("Дата изменения:", (note[4]))
+print("Заголовки:", note[5])
